@@ -5,10 +5,24 @@
  <title>This is me</title>
  <link rel="stylesheet" type="text/css" href="int.css">
 </head>
+ <script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove',function(){
+    setTimeout(() =>{
+            mucics.play();
+        },2000);
+    },false);
+</script>
 <body>
  <script type="text/javascript">
   alert("Welcome to my World!!")
  </script>
+     <div class="pas1">
+        <audio autoplay="autoplay" id="audio" loop="loop">
+        <source src="image/背景音乐.mp3" type="audio/MP3">
+        </audio>
+        <img class="music_img" src="image/背景音乐图标.png" alt="">
+    </div>
  <div class="about">
   <h3 class="about_tit" style="color: red;">灯火可亲的故事</h3>
    <img class="about_bgc" src="image/888.jpg" alt="">
