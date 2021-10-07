@@ -145,3 +145,16 @@
 .back{
     background: url("image/666.jpg");
 }
+.music_img {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 30px;
+    animation: muscis 5s linear infinite;
+}
+audio {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}
